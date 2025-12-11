@@ -1,32 +1,22 @@
-Voici la traduction en français du document, sans modifier les noms de test burkinabè ou la structure :
-
------
-
 # API REST Django avec Développement Assisté par IA
 
-Un projet d'API complet basé sur le **Django REST Framework** développé en collaboration avec plusieurs assistants IA (ChatGPT, Gemini, et Claude), démontrant des pratiques modernes de développement d'API avec une validation et des tests robustes.
+Un projet d'API complet basé sur le **Django REST Framework** qui démontre des pratiques modernes de développement d'API avec une validation et des tests robustes.
 
 ## Table des Matières
 
-  * [Aperçu du Projet](https://www.google.com/search?q=%23project-overview)
-  * [Configuration de l'Environnement](https://www.google.com/search?q=%23environment-setup)
-  * [Conception de la Base de Données](https://www.google.com/search?q=%23database-design)
-  * [Structure du Projet](https://www.google.com/search?q=%23project-structure)
-  * [Points de Terminaison de l'API](https://www.google.com/search?q=%23api-endpoints)
-  * [Validation des Données](https://www.google.com/search?q=%23data-validation)
-  * [Tests](https://www.google.com/search?q=%23testing)
-  * [Installation et Configuration](https://www.google.com/search?q=%23installation--setup)
-  * [Exemples d'Utilisation](https://www.google.com/search?q=%23usage-examples)
+- [Aperçu du projet](#aperçu-du-projet)
+- [Configuration de l’environnement](#configuration-de-lenvironnement)
+- [Conception de la base de données](#conception-de-la-base-de-données)
+- [Structure du projet](#structure-du-projet)
+- [Points de terminaison API](#points-de-terminaison-api)
+- [Validation des données](#validation-des-données)
+- [Tests](#tests)
+- [Installation & Configuration](#installation--configuration)
+- [Exemples d’utilisation](#exemples-dutilisation)
 
 -----
 
 ## Aperçu du Projet
-
-Ce projet démontre une approche collaborative multi-IA pour la construction d'une API REST prête pour la production avec Django. Chaque assistant IA a contribué à différents aspects du développement :
-
-  * **ChatGPT** : Conception du schéma de la base de données
-  * **Gemini** : Boilerplate du projet et logique CRUD
-  * **Claude AI** : Validation des données et tests
 
 ### Pile Technologique
 
@@ -604,39 +594,6 @@ http POST :8000/api/users/ \
   "age": ["Age must be between 1 and 120"]
 }
 ```
-
------
-
-## Processus de Développement
-
-### Flux de Travail Assisté par IA
-
-1.  **ChatGPT** - Conception de la Base de Données
-
-      * Création du schéma normalisé
-      * Définition des relations
-      * Génération des commandes SQL
-
-2.  **Gemini** - Boilerplate et Modèles
-
-      * Configuration de la structure du projet Django
-      * Création des modèles avec des relations appropriées
-      * Implémentation des sérialiseurs et des vues
-
-3.  **Claude AI** - Validation et Tests
-
-      * Ajout d'une logique de validation complète
-      * Création de la suite de tests automatisés
-      * Développement des scripts de test HTTPie
-      * Amélioration de la documentation
-
-### Avantages de l'Approche Multi-IA
-
-  * ✅ Perspectives diverses sur les décisions de conception
-  * ✅ Couverture de validation complète
-  * ✅ Codebase bien documentée
-  * ✅ Suite de tests prête pour la production
-  * ✅ Meilleures pratiques provenant de sources multiples
 
 -----
 
